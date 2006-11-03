@@ -1,0 +1,8 @@
+--- cob/sprites.cpp	2003-10-14 22:49:14.000000000 +0200
++++ cob/sprites.cpp-new	2006-11-03 07:03:14.709114936 +0100
+@@ -173,4 +173,3 @@
+     } while (map.Read(x,y) == 0);
+     x = x << 8;y = y << 8;
+ }
+-        
+\ Brak znaku nowej linii na koñcu pliku
