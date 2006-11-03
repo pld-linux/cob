@@ -7,6 +7,7 @@ License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://www.autismuk.freeserve.co.uk/%{name}-%{version}.tar.gz
 # Source0-md5:	ece428dade7d905e644d66e54b93da40
+Patch0:		%{name}-no_warnings.patch
 URL:		http://www.autismuk.freeserve.co.uk/
 BuildRequires:	SDL-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -23,10 +24,13 @@ Gra oprata jest na grze dla Sinclair Spectrum o tym samym tytule.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 %configure
-%{__make}
+%{__make} \
+	CXXFLAGS="%{rpmcxxflags}" \
+	CPPFLAGS="-I/usr/include/SDL"
 
 %install
 rm -rf $RPM_BUILD_ROOT
