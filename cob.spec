@@ -1,5 +1,5 @@
 Summary:	Remake of Sinclair Spectrum painting game
-Summary(pl):	Remake gry na Spectruma
+Summary(pl):	Remake gry w malowanie z komputera Sinclair Spectrum
 Name:		cob
 Version:	0.9
 Release:	1
@@ -20,7 +20,7 @@ It is based on the Sinclair Spectrum game of the same name.
 %description -l pl
 Cruising on Broadway jest gr±, w której nale¿y poruszaæ siê po siatce
 i unikaæ "³apaczy" - przypomina to trochê grê zrêczno¶ciow± Amidar.
-Gra oprata jest na grze dla Sinclair Spectrum o tym samym tytule.
+Gra oparta jest na grze dla Sinclair Spectrum o tym samym tytule.
 
 %prep
 %setup -q
