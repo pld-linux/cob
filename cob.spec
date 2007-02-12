@@ -1,5 +1,5 @@
 Summary:	Remake of Sinclair Spectrum painting game
-Summary(pl.UTF-8):   Remake gry w malowanie z komputera Sinclair Spectrum
+Summary(pl.UTF-8):	Remake gry w malowanie z komputera Sinclair Spectrum
 Name:		cob
 Version:	0.9
 Release:	1
