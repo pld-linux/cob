@@ -24,7 +24,7 @@ Gra oparta jest na grze dla Sinclair Spectrum o tym samym tytule.
 
 %prep
 %setup -q
-%patch0 -p0
+%patch -P0 -p0
 
 %build
 %configure
